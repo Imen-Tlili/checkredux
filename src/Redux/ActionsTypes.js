@@ -1,0 +1,3 @@
+export const HANDLEDONE = 'HANDLEDONE'
+export const HANDLEADD = 'HANDLEADD'
+export const HANDLEDELETE = 'AHANDLEDELETE'
