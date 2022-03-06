@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.todo{
+background-image: url('https://www.designeatrepeat.com/wp-content/uploads/printable-to-do-list-680x803.png');
+}
 
 .App-logo {
   height: 40vmin;
@@ -40,7 +43,49 @@
 .list{
   text-align: center;
   margin-top: 15px;
+  font-family:sans-serif;
+  
 }
  .chateb{
   text-decoration: line-through;
+  font-family:sans-serif;
+  color:deeppink;
  }
+
+ .button1{
+  display:inline-block;
+  padding:0.5em 1.9em;
+  border:0.1em solid white;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.5em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color: white;
+  background-color:rgb(0, 153, 255);
+  text-align:center;
+  transition: all 0.2s;
+  margin-right: 20px ;
+  
+  
+  
+  
+  }
+  .buttonAdd{
+    display:inline-block;
+    padding:0.9em 4em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:rgb(146, 221, 146);
+    text-align:center;
+    transition: all 0.15s;
+    }
+

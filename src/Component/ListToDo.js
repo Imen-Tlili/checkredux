@@ -14,15 +14,16 @@ const ListToDo =({task})=>{
            
             <h2 className={task.isDone && "chateb"}>{task.desc}</h2>
             <h3>{task.isDone ? "true" : "false"}</h3>
-            <button onClick={() => dispatch(handleDone(task.id))}>
+            <button className='button1' onClick={() => dispatch(handleDone(task.id))}>
             {task.isDone ? "Undone" : "Done"}
             </button>
-            <button onClick={() => dispatch(handleDelete(task.id))}>Delete</button>
+            
+            <button className='button1' onClick={() => dispatch(handleDelete(task.id))}>Delete</button>
           </div>
            ))}
         <br/>
-        <input  value={inpt} onChange={(e) => setInpt( e.target.value)}/>
-        <button onClick={() => {dispatch(handleAdd(inpt));setInpt('')}}> Add </button>
+        <input   style={{ padding:'0.9em 8em'}} value={inpt} onChange={(e) => setInpt( e.target.value)}/>
+        <button className='buttonAdd' onClick={() => {dispatch(handleAdd(inpt));setInpt('')}}> Add </button>
         </div>
     )
     }
